@@ -1,4 +1,4 @@
-apt update && apt install -y nginx gunicorn python3-pip
+apt update && apt install -y nginx gunicorn
 pip3 install flask
 NGINX_CONF="/etc/nginx/sites-enabled/flask_app"
 echo "server {
